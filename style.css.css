@@ -1,0 +1,113 @@
+*{
+    margin: 5px;
+    padding: 3px;
+    color: black;
+   font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    
+}
+.row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./bookstorene.jpg);
+}
+nav{
+    background-color: rgb(103, 11, 11);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100px;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 120%;
+    
+}
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    padding: 2px;
+    margin: 30px;
+    
+    
+}
+h1{
+    text-align: center;
+    font-size:30px ;
+    
+}
+img{
+    width: 50%;
+    border:4px ridge gray ;    
+    border-radius: 20%;
+    display: block;
+    
+}
+p{
+    text-align: center;
+    color: black;
+}
+.col{
+    width: 20%;
+    margin: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25) 
+    0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background-color: rgb(153, 109, 56);
+}
+.col :hover{
+    box-shadow:0 3px 6px rgba(0,0,0,0.16),
+0 3px 6px rgba(0,0,0,0.23);
+transform: translate(0px,-8px);
+
+}
+h5{
+    font-size: 26px;
+    text-align: center;
+    color: black;
+}
+button{
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    margin-top: 3px;
+}
+.buy1{
+    background-color: rgb(117, 71, 8);
+}
+.buy2{
+    background-color: rgb(117, 71, 8); 
+}
+.buy3{
+    background-color: rgb(117, 71, 8);
+}
+.buy4{
+    background-color: rgb(117, 71, 8);
+}
+@media(max-width:1000px) {
+     .col{
+        width: 45%;
+      background-color: rgb(197, 21, 21);
+    }
+  }
+  @media(max-width: 750px) {
+    .col {
+        width: 100%;
+      background-color: lightblue;
+    }
+  }
+  
